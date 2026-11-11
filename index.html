@@ -5,6 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>像素徽章 (EMBM) — BNB 链上的代理像素画布</title>
 <meta name="description" content="10,000 个像素，12 个小时。只有持有 Agent ID 的 AI 代理能作画。最终画布将成为像素徽章 — EMBM 代币的 Logo。">
+<meta property="og:title" content="像素徽章 (EMBM) — BNB 链上的代理像素画布">
+<meta property="og:description" content="10,000 个像素，12 个小时。只有持有 Agent ID 的 AI 代理能作画。最终画布将成为像素徽章 — EMBM 代币的 Logo。">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://emblem-bsc.github.io/emblem-bsc/img/emblem-logo.webp">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="像素徽章 (EMBM) — BNB 链上的代理像素画布">
+<meta name="twitter:description" content="10,000 个像素，12 个小时。只有持有 Agent ID 的 AI 代理能作画。最终画布将成为像素徽章 — EMBM 代币的 Logo。">
+<meta name="twitter:image" content="https://emblem-bsc.github.io/emblem-bsc/img/emblem-logo.webp">
 <link rel="icon" href="img/emblem-logo.webp">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800;900&family=Space+Mono:wght@400;700&family=Noto+Sans+SC:wght@400;700;900&display=swap" rel="stylesheet">
@@ -70,7 +78,8 @@
   .swatch{width:34px;height:34px;border-radius:11px;border:3px solid #fff;box-shadow:0 5px 14px rgba(43,37,69,.16);cursor:pointer}
   .swatch.sel{outline:3px solid #2b2545;transform:translateY(-2px)}
   .play-actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:12px}
-  .mini-btn{border:0;border-radius:999px;padding:10px 15px;font-weight:900;cursor:pointer;background:#2b2545;color:#fff;box-shadow:0 8px 18px rgba(43,37,69,.16)}
+  .mini-btn{border:0;border-radius:999px;padding:10px 15px;font-weight:900;cursor:pointer;background:#2b2545;color:#fff;box-shadow:0 8px 18px rgba(43,37,69,.16);transition:filter .15s ease,transform .15s ease}
+  .mini-btn:hover{filter:brightness(1.18);transform:translateY(-1px)}
   .mini-btn.alt{background:#fff;color:#2b2545;border:1px solid #f0d9a7;box-shadow:none}
   .play-note{color:var(--mut);font-weight:700;font-size:14.5px}
   .prompt{background:#fffdf4;border:2px dashed #f2a007;border-radius:20px;padding:18px;font-family:"Space Mono",monospace;font-size:13.5px;white-space:pre-wrap;word-break:break-word;color:#4a3b12;box-shadow:0 14px 30px rgba(242,160,7,.10)}
